@@ -20,6 +20,38 @@
    'D:\\Program Files (x86)\\Microsoft Visual '
    'Studio\\Shared\\Python39_64\\lib\\copy.py',
    'PYMODULE'),
+  ('typing',
+   'D:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python39_64\\lib\\typing.py',
+   'PYMODULE'),
+  ('contextlib',
+   'D:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python39_64\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'D:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python39_64\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('pickle',
+   'D:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python39_64\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'D:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python39_64\\lib\\pprint.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'D:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python39_64\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('struct',
+   'D:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python39_64\\lib\\struct.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'D:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python39_64\\lib\\fnmatch.py',
+   'PYMODULE'),
   ('string',
    'D:\\Program Files (x86)\\Microsoft Visual '
    'Studio\\Shared\\Python39_64\\lib\\string.py',
@@ -39,10 +71,6 @@
   ('gettext',
    'D:\\Program Files (x86)\\Microsoft Visual '
    'Studio\\Shared\\Python39_64\\lib\\gettext.py',
-   'PYMODULE'),
-  ('struct',
-   'D:\\Program Files (x86)\\Microsoft Visual '
-   'Studio\\Shared\\Python39_64\\lib\\struct.py',
    'PYMODULE'),
   ('token',
    'D:\\Program Files (x86)\\Microsoft Visual '
@@ -72,10 +100,6 @@
    'D:\\Program Files (x86)\\Microsoft Visual '
    'Studio\\Shared\\Python39_64\\lib\\_threading_local.py',
    'PYMODULE'),
-  ('contextlib',
-   'D:\\Program Files (x86)\\Microsoft Visual '
-   'Studio\\Shared\\Python39_64\\lib\\contextlib.py',
-   'PYMODULE'),
   ('_compression',
    'D:\\Program Files (x86)\\Microsoft Visual '
    'Studio\\Shared\\Python39_64\\lib\\_compression.py',
@@ -84,33 +108,9 @@
    'D:\\Program Files (x86)\\Microsoft Visual '
    'Studio\\Shared\\Python39_64\\lib\\base64.py',
    'PYMODULE'),
-  ('typing',
-   'D:\\Program Files (x86)\\Microsoft Visual '
-   'Studio\\Shared\\Python39_64\\lib\\typing.py',
-   'PYMODULE'),
   ('_py_abc',
    'D:\\Program Files (x86)\\Microsoft Visual '
    'Studio\\Shared\\Python39_64\\lib\\_py_abc.py',
-   'PYMODULE'),
-  ('tracemalloc',
-   'D:\\Program Files (x86)\\Microsoft Visual '
-   'Studio\\Shared\\Python39_64\\lib\\tracemalloc.py',
-   'PYMODULE'),
-  ('pickle',
-   'D:\\Program Files (x86)\\Microsoft Visual '
-   'Studio\\Shared\\Python39_64\\lib\\pickle.py',
-   'PYMODULE'),
-  ('pprint',
-   'D:\\Program Files (x86)\\Microsoft Visual '
-   'Studio\\Shared\\Python39_64\\lib\\pprint.py',
-   'PYMODULE'),
-  ('_compat_pickle',
-   'D:\\Program Files (x86)\\Microsoft Visual '
-   'Studio\\Shared\\Python39_64\\lib\\_compat_pickle.py',
-   'PYMODULE'),
-  ('fnmatch',
-   'D:\\Program Files (x86)\\Microsoft Visual '
-   'Studio\\Shared\\Python39_64\\lib\\fnmatch.py',
    'PYMODULE'),
   ('pathlib',
    'D:\\Program Files (x86)\\Microsoft Visual '
@@ -375,29 +375,41 @@
    'D:\\Program Files (x86)\\Microsoft Visual '
    'Studio\\Shared\\Python39_64\\DLLs\\_lzma.pyd',
    'EXTENSION'),
-  ('api-ms-win-crt-locale-l1-1-0.dll',
+  ('api-ms-win-crt-string-l1-1-0.dll',
    'D:\\Program Files\\Microsoft Visual '
-   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-locale-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-stdio-l1-1-0.dll',
-   'D:\\Program Files\\Microsoft Visual '
-   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-stdio-l1-1-0.dll',
-   'BINARY'),
-  ('VCRUNTIME140.dll',
-   'D:\\Program Files (x86)\\Microsoft Visual '
-   'Studio\\Shared\\Python39_64\\VCRUNTIME140.dll',
+   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-string-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-heap-l1-1-0.dll',
    'D:\\Program Files\\Microsoft Visual '
    'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-heap-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-convert-l1-1-0.dll',
+  ('api-ms-win-crt-locale-l1-1-0.dll',
    'D:\\Program Files\\Microsoft Visual '
-   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-convert-l1-1-0.dll',
+   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-locale-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-math-l1-1-0.dll',
    'D:\\Program Files\\Microsoft Visual '
    'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'D:\\Program Files\\Microsoft Visual '
+   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'D:\\Program Files\\Microsoft Visual '
+   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'D:\\Program Files\\Microsoft Visual '
+   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'D:\\Program Files\\Microsoft Visual '
+   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'D:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python39_64\\VCRUNTIME140.dll',
    'BINARY'),
   ('api-ms-win-crt-environment-l1-1-0.dll',
    'D:\\Program Files\\Microsoft Visual '
@@ -406,18 +418,6 @@
   ('api-ms-win-crt-filesystem-l1-1-0.dll',
    'D:\\Program Files\\Microsoft Visual '
    'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-filesystem-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-string-l1-1-0.dll',
-   'D:\\Program Files\\Microsoft Visual '
-   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-string-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-time-l1-1-0.dll',
-   'D:\\Program Files\\Microsoft Visual '
-   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-time-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-runtime-l1-1-0.dll',
-   'D:\\Program Files\\Microsoft Visual '
-   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-runtime-l1-1-0.dll',
    'BINARY'),
   ('libcrypto-1_1.dll',
    'D:\\Program Files (x86)\\Microsoft Visual '
@@ -431,29 +431,29 @@
    'D:\\Program Files\\Microsoft Visual '
    'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-utility-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-timezone-l1-1-0.dll',
+  ('api-ms-win-core-localization-l1-2-0.dll',
    'D:\\Program Files\\Microsoft Visual '
-   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-core-timezone-l1-1-0.dll',
+   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-core-localization-l1-2-0.dll',
    'BINARY'),
   ('api-ms-win-core-file-l2-1-0.dll',
    'D:\\Program Files\\Microsoft Visual '
    'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-core-file-l2-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-file-l1-2-0.dll',
-   'D:\\Program Files\\Microsoft Visual '
-   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-core-file-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-localization-l1-2-0.dll',
-   'D:\\Program Files\\Microsoft Visual '
-   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-core-localization-l1-2-0.dll',
-   'BINARY'),
   ('api-ms-win-core-processthreads-l1-1-1.dll',
    'D:\\Program Files\\Microsoft Visual '
    'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-core-processthreads-l1-1-1.dll',
    'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'D:\\Program Files\\Microsoft Visual '
+   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
   ('api-ms-win-core-synch-l1-2-0.dll',
    'D:\\Program Files\\Microsoft Visual '
    'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'D:\\Program Files\\Microsoft Visual '
+   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-core-file-l1-2-0.dll',
    'BINARY')],
  [],
  [],

@@ -87,29 +87,41 @@
    'D:\\Program Files (x86)\\Microsoft Visual '
    'Studio\\Shared\\Python39_64\\DLLs\\_lzma.pyd',
    'EXTENSION'),
-  ('api-ms-win-crt-locale-l1-1-0.dll',
+  ('api-ms-win-crt-string-l1-1-0.dll',
    'D:\\Program Files\\Microsoft Visual '
-   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-locale-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-stdio-l1-1-0.dll',
-   'D:\\Program Files\\Microsoft Visual '
-   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-stdio-l1-1-0.dll',
-   'BINARY'),
-  ('VCRUNTIME140.dll',
-   'D:\\Program Files (x86)\\Microsoft Visual '
-   'Studio\\Shared\\Python39_64\\VCRUNTIME140.dll',
+   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-string-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-heap-l1-1-0.dll',
    'D:\\Program Files\\Microsoft Visual '
    'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-heap-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-convert-l1-1-0.dll',
+  ('api-ms-win-crt-locale-l1-1-0.dll',
    'D:\\Program Files\\Microsoft Visual '
-   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-convert-l1-1-0.dll',
+   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-locale-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-math-l1-1-0.dll',
    'D:\\Program Files\\Microsoft Visual '
    'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'D:\\Program Files\\Microsoft Visual '
+   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'D:\\Program Files\\Microsoft Visual '
+   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'D:\\Program Files\\Microsoft Visual '
+   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'D:\\Program Files\\Microsoft Visual '
+   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'D:\\Program Files (x86)\\Microsoft Visual '
+   'Studio\\Shared\\Python39_64\\VCRUNTIME140.dll',
    'BINARY'),
   ('api-ms-win-crt-environment-l1-1-0.dll',
    'D:\\Program Files\\Microsoft Visual '
@@ -118,18 +130,6 @@
   ('api-ms-win-crt-filesystem-l1-1-0.dll',
    'D:\\Program Files\\Microsoft Visual '
    'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-filesystem-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-string-l1-1-0.dll',
-   'D:\\Program Files\\Microsoft Visual '
-   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-string-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-time-l1-1-0.dll',
-   'D:\\Program Files\\Microsoft Visual '
-   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-time-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-runtime-l1-1-0.dll',
-   'D:\\Program Files\\Microsoft Visual '
-   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-runtime-l1-1-0.dll',
    'BINARY'),
   ('libcrypto-1_1.dll',
    'D:\\Program Files (x86)\\Microsoft Visual '
@@ -143,29 +143,29 @@
    'D:\\Program Files\\Microsoft Visual '
    'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-crt-utility-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-timezone-l1-1-0.dll',
+  ('api-ms-win-core-localization-l1-2-0.dll',
    'D:\\Program Files\\Microsoft Visual '
-   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-core-timezone-l1-1-0.dll',
+   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-core-localization-l1-2-0.dll',
    'BINARY'),
   ('api-ms-win-core-file-l2-1-0.dll',
    'D:\\Program Files\\Microsoft Visual '
    'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-core-file-l2-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-file-l1-2-0.dll',
-   'D:\\Program Files\\Microsoft Visual '
-   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-core-file-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-localization-l1-2-0.dll',
-   'D:\\Program Files\\Microsoft Visual '
-   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-core-localization-l1-2-0.dll',
-   'BINARY'),
   ('api-ms-win-core-processthreads-l1-1-1.dll',
    'D:\\Program Files\\Microsoft Visual '
    'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-core-processthreads-l1-1-1.dll',
    'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'D:\\Program Files\\Microsoft Visual '
+   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
   ('api-ms-win-core-synch-l1-2-0.dll',
    'D:\\Program Files\\Microsoft Visual '
    'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'D:\\Program Files\\Microsoft Visual '
+   'Studio\\2022\\Enterprise\\Common7\\IDE\\api-ms-win-core-file-l1-2-0.dll',
    'BINARY'),
   ('base_library.zip',
    'C:\\Users\\n.amiri\\source\\repos\\BackupScript\\BackupScript\\build\\BackupScript\\base_library.zip',
@@ -173,7 +173,7 @@
  [],
  False,
  False,
- 1724502508,
+ 1724509278,
  [('run.exe',
    'C:\\Users\\n.amiri\\source\\repos\\BackupScript\\BackupScript\\env\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
    'EXECUTABLE')],

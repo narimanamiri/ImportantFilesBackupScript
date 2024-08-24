@@ -22,7 +22,7 @@ def backup_files():
         backup_location.mkdir(parents=True)  
 
     # Define file extensions to back up  
-    file_extensions = ('.doc', '.docx', '.jpg', '.png', '.pdf')  
+    file_extensions = ('.doc', '.docx', '.jpg', '.png', '.pdf', '.xlsx', '.xls' )
 
     # Back up files  
     for folder in source_folders:  
